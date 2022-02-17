@@ -5,7 +5,7 @@ from selenium import webdriver
 
 class LoginTest(unittest.TestCase):
     def setUp(self) -> None:
-        self.driver = webdriver.Chrome(executable_path='C:/Users/julia/OneDrive/Escritorio/QAJulianJoseSotoGomez/selenium-test/chromedriver_win32/chromedriver.exe')
+        self.driver = webdriver.Chrome(executable_path='C:/Users/julia/OneDrive/Escritorio/QAJulianJoseSotoGomez/selenium-test/chromedriver_win32/chromedriver.exe') #Cambiar la direccion
         driver =self.driver
         driver.get("http://demo-store.seleniumacademy.com/")
         driver.maximize_window()
